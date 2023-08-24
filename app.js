@@ -82,5 +82,5 @@ mongoose
   .catch((error) => console.log(`${error} did not connect`));
 
 app.get("/", (req, res) => {
-  res.send("This is index.js");
+  res.send("This is app.js");
 });
